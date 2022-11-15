@@ -1,0 +1,11 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua%22))()
+local Window = Library.CreateLib("Aday Hub", "Ocean")
+local Tab = Window:NewTab("BloxFruit")
+local Section = Tab:NewSection("BloxFruit [ script ]")
+Section:NewButton("BloxFruit [ Unique Hub Premium Free ]", "Cilck to use", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AkiraNus/UniquehubKak/main/FreeCr.Xenonhub%22))();
+end)
+
+Section:NewButton("BloxFruit [ Mokuro Hub Free ]", "Cilck to use", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader%22)()
+end)
